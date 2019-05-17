@@ -1,0 +1,240 @@
+body {
+  background: #1652f0; }
+
+.container-fluid {
+  width: auto;
+  height: 100px;
+  background: #1652f0;
+  color: white;
+  font-family: "segoe ui";
+  text-align: center;
+  float: none;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto; }
+
+.logo {
+  height: 40px;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 130px; }
+
+ul.navbar-nav {
+  list-style: none;
+  padding: 30px;
+  margin-left: 100px;
+  float: none;
+  position: absolute;
+  left: 30%; }
+
+li.navbar-1 {
+  height: 50px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  border-top: 0;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased; }
+
+.navbar-link {
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: color .1s ease;
+  -o-transition: color .1s ease;
+  transition: color .1s ease;
+  color: white;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  text-align: -webkit-match-parent;
+  list-style: none; }
+
+.drop-menu.menu-1 {
+  display: none;
+  Background-attachment: scroll;
+  background-clip: border-box;
+  background-color: white;
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-collapse: collapse;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.15) 0px 5px 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.15) 0px 5px 20px 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 104.3px;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-top: -20px;
+  min-width: 220px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 0px;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: absolute;
+  text-align: left;
+  top: 70px;
+  width: 220px;
+  z-index: 10;
+  -webkit-font-smoothing: antialiased; }
+
+li.item-item--1 {
+  background-position-y: 50%;
+  background-position-x: 50%;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  height: 47px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  text-align: left;
+  width: 220px;
+  -webkit-font-smoothing: antialiased; }
+
+li a {
+  background-position-y: 50%;
+  background-position-x: 50%;
+  background-size: cover;
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #6f7175;
+  cursor: pointer;
+  height: 39px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  pointer-events: none;
+  text-align: left;
+  -webkit-text-decoration-color: #6f7175;
+  text-decoration-color: #6f7175;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  white-space: nowrap;
+  width: 204px;
+  will-change: color;
+  -webkit-font-smoothing: antialiased; }
+
+ul.drop-menu.menu-1 {
+  display: none; }
+
+li:hover > ul.drop-menu.menu-1 {
+  display: block;
+  opacity: 0;
+  -webkit-perspective: 100px;
+  perspective: 100px;
+  -webkit-animation-name: menu1;
+  animation-name: menu1;
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  li:hover > ul.drop-menu.menu-1 li {
+    opacity: 1; }
+
+@-webkit-keyframes menu1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: translateX(-16px) translateY(-3px) scale(0.97);
+    transform: translateX(-16px) translateY(-3px) scale(0.97); } }
+
+@keyframes menu1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: translateX(-16px) translateY(-3px) scale(0.97);
+    transform: translateX(-16px) translateY(-3px) scale(0.97); } }
+
+.drop {
+  margin: 8px; }
+
+.dropdown {
+  height: 10px;
+  width: 10px; }
+
+.button {
+  background: white;
+  color: #1652f0;
+  -webkit-box-shadow: 0 0 10px 30px;
+  box-shadow: 0 0 10px 30px;
+  font-family: "segoe ui";
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  margin-left: 30px;
+  margin-top: -10px; }
+  .button:hover {
+    -webkit-box-shadow: 0px 17px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 17px 20px 0px rgba(0, 0, 0, 0.3);
+    -webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+    transform: translate(0px, -2px); }
